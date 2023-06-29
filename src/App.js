@@ -4,6 +4,7 @@ import {Greet} from './components/Greetings';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -11,12 +12,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <Message></Message>
+        {/* <Message></Message> */}
+        <ClassClick></ClassClick>
 
         <Counter></Counter>
 
-        {/* <Greet name="veeral S."></Greet>
-        <Welcome name="veeral S2"></Welcome> */}
+        {/* <Greet name="veeral S."></Greet> */}
+        <Welcome name="veeral S2"></Welcome>
       </header>
     </div>
   );
