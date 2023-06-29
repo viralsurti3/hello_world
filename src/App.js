@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -13,12 +14,13 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         {/* <Message></Message> */}
-        <ClassClick></ClassClick>
-
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
 
         {/* <Greet name="veeral S."></Greet> */}
-        <Welcome name="veeral S2"></Welcome>
+        {/* <Welcome name="veeral S2"></Welcome> */}
+        <ClassClick></ClassClick>
+
+        <EventBind></EventBind>
       </header>
     </div>
   );
