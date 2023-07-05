@@ -2,7 +2,7 @@ import React from 'react'
 
 function ChildComponent(props) {
   return (
-    <button onClick={props.ClickHandler}> Click Here for Greeting Parent. </button>
+    <button onClick={() => props.ClickHandler('Child Comp')}> Click Here for Greeting Parent. </button>
   )
 }
 

@@ -12,14 +12,14 @@ export class ParentComponent extends Component {
     }
 
 
-    CallParent(){
-        alert('Hello '+ this.state.ParentName)
+    CallParent(ChildName){
+        alert('Hello '+ this.state.ParentName + ' from ' + ChildName)
     }
   
     render() {
         return (
             <div>
-                <ChildComponent ClickHandler={() => this.CallParent()} ></ChildComponent>
+                <ChildComponent ClickHandler={this.CallParent.bind(this)} ></ChildComponent>
             </div>
         )
     }
