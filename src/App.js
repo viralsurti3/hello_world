@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
 
         {/* <Greet name="veeral S."></Greet> */}
         {/* <Welcome name="veeral S2"></Welcome> */}
-        <ClassClick></ClassClick>
-
+        {/* <ClassClick></ClassClick> */}
+    <ConditionalRendering></ConditionalRendering>
         <EventBind></EventBind>
 
         <ParentComponent></ParentComponent>
