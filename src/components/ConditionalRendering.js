@@ -12,11 +12,13 @@ export class ConditionalRendering extends Component {
   
   render() {
 
-    if(this.state.IsLoggedIn){
-        return <div>Hello User</div>
-    }else{
-        return <div>Hello Guest</div>
-    }
+    // if(this.state.IsLoggedIn){
+    //     return <div>Hello User</div>
+    // }else{
+    //     return <div>Hello Guest</div>
+    // }
+
+    return (this.state.IsLoggedIn ? <div>Hello User</div> : <div>Hello Guest</div>)
   }
 }
 
