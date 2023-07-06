@@ -8,6 +8,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
+import ListRendering from './components/ListRendering';
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
         {/* <Greet name="veeral S."></Greet> */}
         {/* <Welcome name="veeral S2"></Welcome> */}
         {/* <ClassClick></ClassClick> */}
-    <ConditionalRendering></ConditionalRendering>
+    {/* <ConditionalRendering></ConditionalRendering>
         <EventBind></EventBind>
 
-        <ParentComponent></ParentComponent>
+        <ParentComponent></ParentComponent> */}
+
+        <ListRendering></ListRendering>
       </header>
     </div>
   );
