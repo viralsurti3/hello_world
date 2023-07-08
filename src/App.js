@@ -9,6 +9,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
+import Stylesheet from './components/Stylesheet';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
+        <Stylesheet primary={true} ></Stylesheet>
         {/* <Message></Message> */}
         {/* <Counter></Counter> */}
 
