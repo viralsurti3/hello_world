@@ -10,14 +10,16 @@ import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
 import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <Form></Form>
 
-        <Stylesheet primary={true} ></Stylesheet>
+        {/* <Stylesheet primary={true} ></Stylesheet> */}
         {/* <Message></Message> */}
         {/* <Counter></Counter> */}
 
@@ -29,7 +31,7 @@ function App() {
 
         <ParentComponent></ParentComponent> */}
 
-        <ListRendering></ListRendering>
+        {/* <ListRendering></ListRendering> */}
       </header>
     </div>
   );
